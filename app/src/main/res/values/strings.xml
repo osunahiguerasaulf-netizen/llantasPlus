@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- LOGIN LLANTASPLUS -->
+    <string name="app_name">LlantasPlus</string>
+
+    <string name="bienvenido">Bienvenido</string>
+
+    <string name="subtitulo_login">
+    Inicia sesión o crea una cuenta local para continuar
+    </string>
+
+    <string name="hint_usuario">Usuario o correo</string>
+
+    <string name="hint_password">Contraseña</string>
+
+    <string name="ver_password">Mostrar contraseña</string>
+
+    <string name="recuperar_password">
+    ¿Olvidaste tu contraseña?
+    </string>
+
+    <string name="iniciar_sesion">Iniciar sesión  →</string>
+
+    <string name="registrarse">♙  Registrarse</string>
+
+    <string name="salir">Salir</string>
+</resources>

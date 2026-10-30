@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "marca": "Michelin",
+    "modelo": "Primacy 4",
+    "medida": "205/55 R16",
+    "categoria": "Automóvil",
+    "precioCentavos": 245000,
+    "descuento": 10,
+    "imagen": "lp_llanta_1"
+  },
+  {
+    "id": 2,
+    "marca": "Bridgestone",
+    "modelo": "Turanza",
+    "medida": "195/65 R15",
+    "categoria": "Automóvil",
+    "precioCentavos": 220000,
+    "descuento": 0,
+    "imagen": "lp_llanta_2"
+  },
+  {
+    "id": 3,
+    "marca": "Pirelli",
+    "modelo": "Scorpion",
+    "medida": "225/65 R17",
+    "categoria": "SUV",
+    "precioCentavos": 310000,
+    "descuento": 15,
+    "imagen": "lp_llanta_3"
+  },
+  {
+    "id": 4,
+    "marca": "Continental",
+    "modelo": "CrossContact",
+    "medida": "235/60 R18",
+    "categoria": "SUV",
+    "precioCentavos": 345000,
+    "descuento": 0,
+    "imagen": "lp_llanta_4"
+  },
+  {
+    "id": 5,
+    "marca": "Goodyear",
+    "modelo": "Wrangler",
+    "medida": "265/70 R16",
+    "categoria": "Camioneta",
+    "precioCentavos": 330000,
+    "descuento": 20,
+    "imagen": "lp_llanta_5"
+  },
+  {
+    "id": 6,
+    "marca": "BFGoodrich",
+    "modelo": "All-Terrain",
+    "medida": "265/70 R17",
+    "categoria": "Camioneta",
+    "precioCentavos": 420000,
+    "descuento": 30,
+    "imagen": "lp_llanta_6"
+  }
+]

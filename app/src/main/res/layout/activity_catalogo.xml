@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lp_fondo"
+    >
+
+    <!-- Encabezado -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:background="@color/lp_blanco">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/btnVolver"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:padding="12dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:srcCompat="@drawable/lp_ic_volver"
+            app:tint="@color/lp_texto"
+            android:contentDescription="@string/lp_texto_40" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:text="@string/lp_texto_41"
+            android:textColor="@color/lp_texto"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/btnCarrito"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:padding="12dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:srcCompat="@drawable/lp_ic_carrito"
+            app:tint="@color/lp_texto"
+            android:contentDescription="@string/lp_texto_42" />
+
+    </LinearLayout>
+
+    <!-- Contenido desplazable -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Buscador -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingStart="14dp"
+                android:paddingEnd="12dp"
+                android:background="@drawable/lp_bg_busqueda">
+
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:src="@drawable/lp_ic_buscar"
+                    android:contentDescription="@string/lp_texto_51" />
+
+                <EditText
+                    android:id="@+id/txtBuscarCatalogo"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginStart="10dp"
+                    android:background="@null"
+                    android:hint="@string/lp_texto_52"
+                    android:textColor="@color/lp_texto"
+                    android:textColorHint="@color/lp_gris"
+                    android:textSize="14sp"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:imeOptions="actionSearch" />
+
+            </LinearLayout>
+
+            <!-- Categorías -->
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btnTodas"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:minWidth="80dp"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="18dp"
+                        android:background="@drawable/lp_bg_rojo"
+                        app:backgroundTint="@null"
+                        android:text="@string/lp_texto_43"
+                        android:textAllCaps="false"
+                        android:textColor="@color/lp_blanco"
+                        android:textSize="13sp" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btnAuto"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginStart="8dp"
+                        android:minWidth="0dp"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="18dp"
+                        android:background="@drawable/lp_bg_categoria"
+                        app:backgroundTint="@null"
+                        android:text="@string/lp_texto_44"
+                        android:textAllCaps="false"
+                        android:textColor="@color/lp_texto"
+                        android:textSize="13sp" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btnSuv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginStart="8dp"
+                        android:minWidth="70dp"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="18dp"
+                        android:background="@drawable/lp_bg_categoria"
+                        app:backgroundTint="@null"
+                        android:text="@string/lp_texto_45"
+                        android:textAllCaps="false"
+                        android:textColor="@color/lp_texto"
+                        android:textSize="13sp" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btnCamioneta"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_marginStart="8dp"
+                        android:minWidth="0dp"
+                        android:paddingStart="18dp"
+                        android:paddingEnd="18dp"
+                        android:background="@drawable/lp_bg_categoria"
+                        app:backgroundTint="@null"
+                        android:text="@string/lp_texto_46"
+                        android:textAllCaps="false"
+                        android:textColor="@color/lp_texto"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <!-- Filtros -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnMarca"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="6dp"
+                    android:minWidth="0dp"
+                    android:paddingStart="4dp"
+                    android:paddingEnd="4dp"
+                    android:background="@drawable/lp_bg_categoria"
+                    app:backgroundTint="@null"
+                    android:text="@string/lp_texto_47"
+                    android:textAllCaps="false"
+                    android:textColor="@color/lp_gris"
+                    android:textSize="13sp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnMedida"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="6dp"
+                    android:minWidth="0dp"
+                    android:paddingStart="4dp"
+                    android:paddingEnd="4dp"
+                    android:background="@drawable/lp_bg_categoria"
+                    app:backgroundTint="@null"
+                    android:text="@string/lp_texto_48"
+                    android:textAllCaps="false"
+                    android:textColor="@color/lp_gris"
+                    android:textSize="13sp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnPrecio"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="6dp"
+                    android:minWidth="0dp"
+                    android:paddingStart="4dp"
+                    android:paddingEnd="4dp"
+                    android:background="@drawable/lp_bg_categoria"
+                    app:backgroundTint="@null"
+                    android:text="@string/lp_texto_49"
+                    android:textAllCaps="false"
+                    android:textColor="@color/lp_gris"
+                    android:textSize="13sp" />
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/btnOrdenar"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:padding="12dp"
+                    android:background="@drawable/lp_bg_categoria"
+                    app:srcCompat="@drawable/lp_ic_orden"
+                    app:tint="@color/lp_texto"
+                    android:contentDescription="@string/lp_orden_asc" />
+
+            </LinearLayout>
+
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal"><CheckBox android:id="@+id/chkOfertas" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:minHeight="48dp" android:text="Ofertas" android:textColor="@color/lp_texto" /><CheckBox android:id="@+id/chkFavoritos" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:minHeight="48dp" android:text="Favoritos" android:textColor="@color/lp_texto" /></LinearLayout><androidx.appcompat.widget.AppCompatButton android:id="@+id/btnLimpiarFiltros" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:layout_marginTop="12dp" android:padding="12dp" android:background="@drawable/lp_bg_categoria" app:backgroundTint="@null" android:text="Limpiar filtros" android:textAllCaps="false" android:textColor="@color/lp_texto" />
+<TextView android:id="@+id/lblResultados" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="Productos" android:textSize="13sp" android:textColor="@color/lp_texto" />
+            <!-- Mensaje para búsquedas sin resultados -->
+            <TextView
+                android:id="@+id/lblSinResultados"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:padding="16dp"
+                android:gravity="center"
+                android:text="@string/lp_texto_53"
+                android:textColor="@color/lp_gris"
+                android:textSize="15sp"
+                android:visibility="gone" />
+
+            <!-- Productos: Kotlin actualizará este contenedor -->
+            <LinearLayout
+                android:id="@+id/contenedorProductos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <!-- Primera fila de ejemplo -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:baselineAligned="false">
+
+                    <include
+                        android:id="@+id/tarjetaCatalogo1"
+                        layout="@layout/lp_tarjeta_producto"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="6dp" />
+
+                    <include
+                        android:id="@+id/tarjetaCatalogo2"
+                        layout="@layout/lp_tarjeta_producto"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginStart="6dp" />
+
+                </LinearLayout>
+
+                <!-- Segunda fila de ejemplo -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:orientation="horizontal"
+                    android:baselineAligned="false">
+
+                    <include
+                        android:id="@+id/tarjetaCatalogo3"
+                        layout="@layout/lp_tarjeta_producto"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="6dp" />
+
+                    <include
+                        android:id="@+id/tarjetaCatalogo4"
+                        layout="@layout/lp_tarjeta_producto"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginStart="6dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <!-- Separador -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lp_borde" />
+
+    <!-- Navegación inferior -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@color/lp_blanco">
+
+        <TextView
+            android:id="@+id/navInicio"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="8dp"
+            android:drawableTop="@drawable/lp_ic_inicio"
+            android:drawableTint="@color/lp_gris"
+            android:drawablePadding="5dp"
+            android:text="@string/lp_texto_55"
+            android:textColor="@color/lp_gris"
+            android:textSize="11sp"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/navCatalogo"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="8dp"
+            android:drawableTop="@drawable/lp_ic_catalogo"
+            android:drawableTint="@color/lp_rojo"
+            android:drawablePadding="5dp"
+            android:text="@string/lp_texto_57"
+            android:textColor="@color/lp_rojo"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/navCarrito"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="8dp"
+            android:drawableTop="@drawable/lp_ic_carrito"
+            android:drawableTint="@color/lp_gris"
+            android:drawablePadding="5dp"
+            android:text="@string/lp_texto_59"
+            android:textColor="@color/lp_gris"
+            android:textSize="11sp"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/navPerfil"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="8dp"
+            android:drawableTop="@drawable/lp_ic_perfil"
+            android:drawableTint="@color/lp_gris"
+            android:drawablePadding="5dp"
+            android:text="@string/lp_texto_61"
+            android:textColor="@color/lp_gris"
+            android:textSize="11sp"
+            android:clickable="true"
+            android:focusable="true" />
+
+    </LinearLayout>
+
+</LinearLayout>

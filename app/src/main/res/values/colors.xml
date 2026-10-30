@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="rojo_principal">#E60012</color>
+    <color name="rojo_suave">#FFF1F2</color>
+    <color name="texto_oscuro">#19212B</color>
+    <color name="texto_gris">#6B7280</color>
+    <color name="borde_input">#D9DDE5</color>
+    <color name="fondo_login">#FFFFFF</color>
+    <color name="fondo_salir">#FAFAFB</color>
+
+</resources>

@@ -1,0 +1,53 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="760dp"
+    android:viewportWidth="400"
+    android:viewportHeight="760">
+
+    <!-- Marca de neumático tenue -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#FBEAEC"
+        android:strokeWidth="38"
+        android:pathData="
+            M190,-40
+            C390,40 485,150 420,365" />
+
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#F5DADD"
+        android:strokeWidth="5"
+        android:pathData="
+            M220,-20 L280,30
+            M260,10 L326,64
+            M296,44 L364,100
+            M326,82 L393,139
+            M347,125 L407,183
+            M361,174 L413,228
+            M364,225 L408,270" />
+
+    <!-- Curvas decorativas inferiores -->
+    <path
+        android:fillColor="#FFF1F2"
+        android:pathData="
+            M0,665
+            C90,675 155,720 245,725
+            C305,730 358,696 400,688
+            L400,760
+            L0,760 Z" />
+
+    <path
+        android:fillColor="#FFDDE2"
+        android:pathData="
+            M0,690
+            C90,705 170,755 270,760
+            L0,760 Z" />
+
+    <path
+        android:fillColor="#FFF7F8"
+        android:pathData="
+            M240,760
+            C310,745 350,726 400,718
+            L400,760 Z" />
+
+</vector>

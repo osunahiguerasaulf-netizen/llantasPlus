@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Antes de distribuir, escribe el WhatsApp real de la tienda: código de país y número, sin + ni espacios. México: 52 y diez dígitos. Si queda vacío se puede configurar desde Preparar pedido. -->
+    <string name="lp_whatsapp_negocio" translatable="false"></string>
+</resources>

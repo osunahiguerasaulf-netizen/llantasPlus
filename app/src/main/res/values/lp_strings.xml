@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Tarjeta de producto destacado -->
+    <string name="lp_texto_1">Llanta con rin</string>
+    <string name="lp_texto_2">Agregar a favoritos</string>
+    <string name="lp_texto_3">Michelin\nPrimacy 4</string>
+    <string name="lp_texto_4">205/55 R16</string>
+    <string name="lp_texto_5">$2,450</string>
+    <string name="lp_texto_6">Agregar al carrito</string>
+
+    <!-- Tarjeta de producto del catálogo -->
+    <string name="lp_texto_7">Llanta con rin</string>
+    <string name="lp_texto_8">Agregar a favoritos</string>
+    <string name="lp_texto_9">Michelin\nPrimacy 4</string>
+    <string name="lp_texto_10">205/55 R16</string>
+    <string name="lp_texto_11">$2,450</string>
+    <string name="lp_texto_12">Agregar al carrito</string>
+
+    <!-- Encabezado y banner de Inicio -->
+    <string name="lp_texto_13">LlantasPlus</string>
+    <string name="lp_texto_14">Notificaciones</string>
+    <string name="lp_texto_15">Las mejores llantas para tu camino. Calidad, seguridad y el mejor precio. Ver productos.</string>
+    <string name="lp_texto_16">●  ●  ●  ●</string>
+
+    <!-- Categorías de Inicio -->
+    <string name="lp_texto_17">Todas las llantas</string>
+    <string name="lp_texto_18">Todas</string>
+    <string name="lp_texto_19">Llantas para automóvil</string>
+    <string name="lp_texto_20">Auto</string>
+    <string name="lp_texto_21">Llantas para SUV</string>
+    <string name="lp_texto_22">SUV</string>
+    <string name="lp_texto_23">Llantas para camioneta</string>
+    <string name="lp_texto_24">Pickup</string>
+
+    <!-- Buscador de Inicio -->
+    <string name="lp_texto_25">Buscar</string>
+    <string name="lp_texto_26">Buscar llantas, medidas o marcas…</string>
+
+    <!-- Secciones de Inicio -->
+    <string name="lp_texto_27">Productos destacados</string>
+    <string name="lp_texto_28">Ver todos  →</string>
+    <string name="lp_texto_29">Ofertas especiales</string>
+    <string name="lp_texto_30">Ver todas  →</string>
+    <string name="lp_texto_31">Gran variedad de marcas. Hasta 30% de descuento. Ver ofertas.</string>
+
+    <!-- Navegación de Inicio -->
+    <string name="lp_texto_32">Inicio</string>
+    <string name="lp_texto_33">Inicio</string>
+    <string name="lp_texto_34">Catálogo</string>
+    <string name="lp_texto_35">Catálogo</string>
+    <string name="lp_texto_36">Carrito</string>
+    <string name="lp_texto_37">Carrito</string>
+    <string name="lp_texto_38">Perfil</string>
+    <string name="lp_texto_39">Perfil</string>
+
+    <!-- Encabezado del catálogo -->
+    <string name="lp_texto_40">Volver</string>
+    <string name="lp_texto_41">Catálogo</string>
+    <string name="lp_texto_42">Ver carrito</string>
+
+    <!-- Categorías y filtros del catálogo -->
+    <string name="lp_texto_43">Todas</string>
+    <string name="lp_texto_44">Auto</string>
+    <string name="lp_texto_45">SUV</string>
+    <string name="lp_texto_46">Pickup</string>
+    <string name="lp_texto_47">Marca ⌄</string>
+    <string name="lp_texto_48">Medida ⌄</string>
+    <string name="lp_texto_49">Precio ⌄</string>
+    <string name="lp_texto_50">↕</string>
+
+    <!-- Buscador del catálogo -->
+    <string name="lp_texto_51">Buscar</string>
+    <string name="lp_texto_52">Buscar llantas, medidas o marcas…</string>
+    <string name="lp_texto_53">No se encontraron llantas con esos filtros.</string>
+
+    <!-- Navegación del catálogo -->
+    <string name="lp_texto_54">Inicio</string>
+    <string name="lp_texto_55">Inicio</string>
+    <string name="lp_texto_56">Catálogo</string>
+    <string name="lp_texto_57">Catálogo</string>
+    <string name="lp_texto_58">Carrito</string>
+    <string name="lp_texto_59">Carrito</string>
+    <string name="lp_texto_60">Perfil</string>
+    <string name="lp_texto_61">Perfil</string>
+
+    <!-- Favoritos -->
+    <string name="lp_agregar_favorito">Agregar a favoritos</string>
+    <string name="lp_quitar_favorito">Quitar de favoritos</string>
+
+    <!-- Carrito -->
+    <string name="lp_agregado">%1$s %2$s agregada al carrito</string>
+    <string name="lp_carrito">Carrito</string>
+    <string name="lp_carrito_vacio">Tu carrito está vacío.</string>
+    <string name="lp_cerrar">Cerrar</string>
+    <string name="lp_vaciar">Vaciar carrito</string>
+    <string name="lp_total">\n\nTotal: $%1$d MXN</string>
+
+    <!-- Mensajes -->
+    <string name="lp_perfil_pendiente">La pantalla de perfil todavía no está implementada.</string>
+    <string name="lp_sin_notificaciones">No tienes notificaciones.</string>
+    <string name="lp_ofertas_demo">Promoción de demostración. El descuento se refleja en el precio mostrado.</string>
+
+    <!-- Filtros -->
+    <string name="lp_marca">Marca</string>
+    <string name="lp_medida">Medida</string>
+    <string name="lp_precio">Precio</string>
+    <string name="lp_orden_asc">Precio: de menor a mayor</string>
+    <string name="lp_orden_desc">Precio: de mayor a menor</string>
+
+    <string-array name="lp_precios">
+        <item>Todos los precios</item>
+        <item>Hasta $2,000</item>
+        <item>Hasta $2,500</item>
+        <item>Hasta $3,000</item>
+    </string-array>
+
+    <!-- Banner principal -->
+    <string name="lp_banner_titulo">Las mejores llantas\npara tu camino</string>
+    <string name="lp_banner_descripcion">Calidad, seguridad y el mejor precio.</string>
+    <string name="lp_banner_boton">Ver productos</string>
+    <string name="lp_banner_imagen">Llantas destacadas</string>
+
+    <!-- Banner de ofertas -->
+    <string name="lp_ofertas_titulo">Gran variedad\nde marcas</string>
+    <string name="lp_ofertas_descripcion">Hasta 30% de descuento</string>
+    <string name="lp_ofertas_boton">Ver ofertas</string>
+    <string name="lp_ofertas_imagen">Llantas en promoción</string>
+
+</resources>

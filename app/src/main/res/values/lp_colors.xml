@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Color principal de LlantasPlus -->
+    <color name="lp_rojo">#ED0019</color>
+
+    <!-- Textos -->
+    <color name="lp_texto">#101114</color>
+    <color name="lp_gris">#69717D</color>
+
+    <!-- Fondos -->
+    <color name="lp_fondo">#FAFAFB</color>
+    <color name="lp_blanco">#FFFFFF</color>
+
+    <!-- Bordes y categoría seleccionada -->
+    <color name="lp_borde">#E2E3E7</color>
+    <color name="lp_rosa">#FBE1E5</color>
+
+</resources>
